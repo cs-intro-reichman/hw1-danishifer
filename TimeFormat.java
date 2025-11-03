@@ -26,6 +26,6 @@ public class TimeFormat {
 			ampm = "PM";
 		}
 
-		System.out.printf("%d:%02d %s\n", displayHours, minutes, ampm);
+		System.out.println(displayHours + ":" + String.format("%02d", minutes) + " " + ampm);
 	}
 }

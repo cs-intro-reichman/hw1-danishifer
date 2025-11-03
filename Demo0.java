@@ -6,7 +6,7 @@ public class Demo0 {
         int i = 0;
         // Complete the program's code here:
         for (; i < 6; i++) {
-            System.out.printf("i: %d\n", i);
+            System.out.println("i: " + i);
         }
     }
  }

@@ -9,6 +9,6 @@ public class Ascend {
 		double max = Math.max(random1, Math.max(random2, random3));
 		double min = Math.min(random1, Math.min(random2, random3));
 		double mid = random1 + random2 + random3 - max - min;
-		System.out.printf("The numbers in ascending order are: %.0f, %.0f, %.0f\n", min, mid, max);
+		System.out.println("The numbers in ascending order are: " + min + ", " + mid + ", " + max);
 	}
 }
